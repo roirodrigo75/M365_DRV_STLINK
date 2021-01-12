@@ -24,7 +24,7 @@ import openocd
 import shutil
 
 serial ='26354/00040000'
-KM=0
+KM=235
 
 def word2bytes(word):
  result=[(word)&0xff,(word>>8)&0xff,(word>>16)&0xff,(word>>24)&0xff]
